@@ -1,10 +1,10 @@
 # SpringBatchPractice
 Required:
 1. jdk1.8
-2. to change your spring datasource config
-spring.datasource.url = jdbc:mysql://localhost:3306/[your_db_name]
-spring.datasource.username = [username]
-spring.datasource.password = [userpassword]
+2. to change your spring datasource config\n
+spring.datasource.url = jdbc:mysql://localhost:3306/[your_db_name]\n
+spring.datasource.username = [username]\t
+spring.datasource.password = [userpassword]\t\n
 spring.datasource.driver-class-name = com.mysql.jdbc.Driver
 
 3. database tables of student and employee(sql file in directory of 'resources/')
