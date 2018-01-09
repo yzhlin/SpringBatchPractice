@@ -15,6 +15,7 @@ Required:
 
 
 /***************************************************************************************************************/
+
 Write the database tables while startup project, and you can clean records for new testing like below(if your job step's attribute of allowStartIfComplete not true, you must clear the step's history records before next testing):
 
 delete from batch_job_execution_context;
